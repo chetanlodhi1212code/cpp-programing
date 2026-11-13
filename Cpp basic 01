@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    float area,P,L,W;
+    cout << "enter the length of gardern:"<<endl;
+    cin >>L;
+    cout << "enter the width of gardern:"<<endl;
+    cin >>W;
+    
+    area=L*W;
+    P=2*(L+W);
+    
+    cout << "the total length of fencing of gardern is"<<P<<endl;
+    cout << "the total area  of gardern is"<<area<<endl;
+    cout << "THANK YOU"<<endl;
+    
+    return 0;
+}
